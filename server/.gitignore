@@ -1,0 +1,71 @@
+# ========================
+# Dependencies
+# ========================
+node_modules/
+
+# ========================
+# Build output
+# ========================
+dist/
+build/
+
+# ========================
+# Environment / Secrets
+# ========================
+.env
+.env.*
+# Giữ lại file example để team có thể tham khảo
+!.env.example
+
+# ========================
+# TypeScript cache
+# ========================
+*.tsbuildinfo
+tsconfig.build.tsbuildinfo
+
+# ========================
+# Logs
+# ========================
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ========================
+# Test coverage
+# ========================
+coverage/
+.nyc_output/
+
+# ========================
+# OS files
+# ========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ========================
+# Editor / IDE
+# ========================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ========================
+# Package manager lockfiles (chọn 1)
+# ========================
+# Bỏ comment dòng phù hợp nếu không muốn commit lockfile:
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+
+# ========================
+# Misc
+# ========================
+.cache/
+.temp/
+tmp/
